@@ -25,6 +25,9 @@
 #include "gstqtglutility.h"
 #include <QtGui/QGuiApplication>
 
+// We dont want this one defined for imx8 platform
+#undef GST_GL_HAVE_WINDOW_VIV_FB
+
 #if GST_GL_HAVE_WINDOW_X11 && defined (HAVE_QT_X11)
 #include <QX11Info>
 #include <gst/gl/x11/gstgldisplay_x11.h>
