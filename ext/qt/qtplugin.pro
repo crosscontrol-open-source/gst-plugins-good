@@ -24,7 +24,7 @@ unix:DEFINES += HAVE_QT_WAYLAND HAVE_QT_EGLFS HAVE_QT_EGLFS HAVE_QT_QPA_HEADER
 
 versionAtLeast(QT_VERSION, "5.5"):win32-msvc: LIBS += opengl32.lib
 
-INCLUDEPATH += /opt/V700/sysroots/aarch64-poky-linux/opt/Qt-5.15.2/include/QtGui/5.15.2/QtGui/
+INCLUDEPATH += /opt/V1X00/sysroots/aarch64-poky-linux/opt/Qt-5.15.2/include/QtGui/5.15.2/QtGui/
 
 SOURCES += \
     gstplugin.cc \
